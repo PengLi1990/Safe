@@ -22,7 +22,7 @@
             </intent-filter>
         </activity>
         -->
-        <activity android:name=".com.buaa.activity.SplanshActivity">
+        <activity android:name=".activity.SplanshActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,8 +30,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".com.buaa.activity.HomeActivity"
-            android:label="@string/title_activity_home"></activity>
+            android:name=".activity.HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name=".activity.SettingActivity"></activity>
     </application>
 
 </manifest>
